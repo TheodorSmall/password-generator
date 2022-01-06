@@ -8,7 +8,7 @@ import (
 
 func generate(length uint) {
 	if length == 0 {
-		fmt.Print("cannot generate empty password")
+		fmt.Println("cannot generate empty password")
 		return
 	}
 
